@@ -43,6 +43,7 @@ public class GenericConsumer extends GenericPollingConsumer{
 	public Object poll() {
 		Object o = "WSO2 Generic Inbound Test";
 		log.info("Generic Polling Consumer Invoked");
+		injectMessage("Hello ESB","text/plain");
 		return o;
 	}
 
