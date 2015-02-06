@@ -38,6 +38,8 @@ public class GenericConsumer extends GenericPollingConsumer{
 
 	}
 
+	//Test comment
+
 
 	@Override
 	public Object poll() {
